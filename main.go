@@ -46,6 +46,7 @@ func main() {
 	beego.BConfig.WebConfig.Session.SessionGCMaxLifetime = 3600 * 24 * 365
 
 	service.Start()
+	service.StartDocker()
 
 	beego.Run()
 }
