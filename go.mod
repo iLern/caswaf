@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/astaxie/beego v1.12.3
-	github.com/casdoor/casdoor-go-sdk v0.27.0
+	github.com/casdoor/casdoor-go-sdk v0.28.4
 	github.com/docker/docker v24.0.5+incompatible
 	github.com/go-sql-driver/mysql v1.6.0
 	golang.org/x/net v0.1.0
