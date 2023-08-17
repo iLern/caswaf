@@ -3,12 +3,13 @@ package service
 import (
 	"context"
 	"fmt"
+	"log"
+	"strings"
+
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/client"
 	"github.com/docker/go-connections/nat"
-	"log"
-	"strings"
 )
 
 const (
